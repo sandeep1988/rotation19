@@ -16,8 +16,10 @@ class Rotation
 end
 
 puts "Enter Original Password"
-list = gets
+list = STDIN.gets.chomp
 convert_text = Rotation.new.encrypt(list)
-printf "rot19 encryption Password is => "
+printf "Original Password is => "
+puts list
+printf "rot19 encryption password is => "
 puts convert_text
 

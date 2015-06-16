@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rotation19'
-  s.version     = '1.0.0'
+  s.version     = '1.3.0'
   s.date        = '2015-06-16'
   s.summary     = "Gem for convert String to Rotation19(Rotation)!"
   s.description = "A simple gem for Gem for convert String to Rotation19(rotation)!"
