@@ -14,12 +14,3 @@ class Rotation
        string.tr(@encrypt, @decrypt)
   end
 end
-
-puts "Enter Original Password"
-list = STDIN.gets.chomp
-convert_text = Rotation.new.encrypt(list)
-printf "Original Password is => "
-puts list
-printf "rot19 encryption password is => "
-puts convert_text
-

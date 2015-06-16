@@ -4,8 +4,11 @@ EX. we will give the string "testing" and it will encryption into
 
 Installation
 gem install rotation19
+bundle install
 
 Usage
 
-require 'github/rotation'
+require 'rotation'
 Rotation.new.encrypt(anystring)
+EX=> Rotation.new.encrypt("testing")
+outpu => "mxlmbgz"
