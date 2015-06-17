@@ -8,7 +8,7 @@ bundle install
 
 Usage
 
-require 'rotation'
+require 'rotation19'
 Rotation.new.encrypt(anystring)
 EX=> Rotation.new.encrypt("testing")
 outpu => "mxlmbgz"
